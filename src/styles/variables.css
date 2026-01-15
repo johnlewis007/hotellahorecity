@@ -1,0 +1,30 @@
+:root {
+  /* Colors */
+  --primary-color: #D4AF37; /* Gold */
+  --primary-hover: #B59328;
+  --secondary-color: #2C2C2C; /* Dark Grey */
+  --secondary-hover: #1A1A1A;
+  --secondary-light: #4A4A4A;
+  --accent-color: #F8F8F8; /* Light background */
+  --text-dark: #333333;
+  --text-light: #666666;
+  --text-white: #FFFFFF;
+  --white: #FFFFFF;
+  --black: #000000;
+  --border-color: #E5E5E5;
+  --error-color: #D32F2F;
+  --success-color: #388E3C;
+  
+  /* Typography */
+  --font-heading: 'Playfair Display', serif;
+  --font-body: 'Inter', sans-serif;
+  
+  /* Spacing */
+  --container-width: 1200px;
+  --header-height: 80px;
+  
+  /* Shadows */
+  --shadow-sm: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+}

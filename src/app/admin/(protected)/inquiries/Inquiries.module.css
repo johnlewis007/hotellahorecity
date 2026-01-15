@@ -1,0 +1,128 @@
+.container {
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    color: var(--secondary-color);
+    margin-bottom: 5px;
+}
+
+.header p {
+    color: var(--text-light);
+}
+
+.error {
+    background-color: #fee2e2;
+    color: #dc2626;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.noData {
+    text-align: center;
+    padding: 50px;
+    color: #999;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.noData p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+.inquiryList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inquiryCard {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border-left: 4px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.unread {
+    border-left-color: var(--primary-color);
+    background-color: #fffaf0;
+}
+
+.cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.userInfo span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.name {
+    font-weight: 700;
+    color: var(--secondary-color) !important;
+    font-size: 1.1rem !important;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.actionBtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: #888;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.actionBtn:hover {
+    background-color: #f0f0f0;
+    color: var(--secondary-color);
+}
+
+.deleteBtn:hover {
+    color: #dc2626;
+    background-color: #fee2e2;
+}
+
+.message {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+    white-space: pre-wrap;
+}
+
+@media (max-width: 600px) {
+    .userInfo {
+        flex-direction: column;
+        gap: 5px;
+    }
+}

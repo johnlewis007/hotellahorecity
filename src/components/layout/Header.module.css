@@ -1,0 +1,61 @@
+.header {
+    height: var(--header-height);
+    background-color: var(--white);
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo a {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.navList {
+    display: flex;
+    gap: 30px;
+}
+
+.navList li a {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--text-dark);
+    position: relative;
+}
+
+.navList li a:hover {
+    color: var(--primary-color);
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    .nav,
+    .cta {
+        display: none;
+        /* Mobile menu implementation later if needed */
+    }
+}

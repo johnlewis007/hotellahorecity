@@ -1,0 +1,12 @@
+.pageHeader {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.pageHeader h1 {
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin-bottom: 10px;
+}

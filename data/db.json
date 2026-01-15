@@ -1,0 +1,60 @@
+{
+  "hotelInfo": {
+    "name": "Hotel Lahore City",
+    "address": "Lakshmi Chowk, Abbott Road, Montgomery Park, Lahore",
+    "phone": "0300-5556271",
+    "email": "contact@hotellahorecity.com",
+    "description": "Hotel Lahore City offers a comfortable stay in the heart of Lahore. Located near Lakshmi Chowk and Montgomery Park, we provide affordable rooms with modern facilities, ensuring a pleasant experience for travelers and families.",
+    "checkIn": "12:00 PM",
+    "checkOut": "12:00 PM",
+    "locationMapUrl": "https://www.google.com/maps/embed?pb=..."
+  },
+  "rooms": [],
+  "facilities": [
+    {
+      "id": "1",
+      "name": "Free Wi-Fi",
+      "icon": "wifi"
+    },
+    {
+      "id": "2",
+      "name": "Room Service",
+      "icon": "room_service"
+    },
+    {
+      "id": "3",
+      "name": "Car Parking",
+      "icon": "local_parking"
+    },
+    {
+      "id": "4",
+      "name": "24/7 Front Desk",
+      "icon": "support_agent"
+    },
+    {
+      "id": "5",
+      "name": "Security",
+      "icon": "security"
+    },
+    {
+      "id": "6",
+      "name": "Clean Rooms",
+      "icon": "cleaning_services"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Ali Khan",
+      "rating": 4,
+      "text": "Good location and affordable prices. Staff was friendly.",
+      "date": "2023-10-15"
+    }
+  ],
+  "gallery": [],
+  "bookings": {
+    "bookingDotCom": "https://www.booking.com",
+    "agoda": "https://www.agoda.com"
+  },
+  "inquiries": []
+}
